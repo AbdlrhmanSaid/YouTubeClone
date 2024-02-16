@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500&family=Oswald:wght@300;400&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,900;1,500&family=Roboto:wght@100;300;400;500;700&family=Rubik:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+      <link href="./output.css" rel="stylesheet">
+    <title>YouTube</title>
+  </head>
+  <body>
+    <nav class="text-white">
+      <div class="cont px-1 ml-2 mr-4">
+        <div class="boxes flex justify-between px-2">
+          <div class="box1 flex my-2 py-1 items-center">
+            <div
+              class="bars mr-4 text-2xl w-9 h-9 rounded-full leading-10 text-center"
+            >
+              <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="logo flex justify-center items-center">
+              <i class="fa-brands youtube fa-youtube text-2xl mr-1"></i>
+              <span class="name cursor-pointer">YouTube</span>
+              <span class="count">EG</span>
+            </div>
+          </div>
+          <div class="box2 flex text-black my-2 py-1">
+            <form
+              class="flex justify-center items-center lg:w-full md:w-96"
+              role="search"
+            >
+              <input
+                class="search"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <div class="ser">
+                <i
+                  class="fa-solid fa-magnifying-glass text-light m-3 text-white"
+                ></i>
+              </div>
+              <div
+                class="mic text-white ml-2 w-9 h-9 rounded-full leading-10 text-center info" data-info="Voice"
+              >
+                <i class="fa-solid fa-microphone"></i>
+              </div>
+            </form>
+          </div>
+          <div class="box3 flex my-2 py-1 items-center">
+            <div
+              class="icon-ser w-9 h-9 rounded-full leading-10 text-center hidden"
+            >
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div
+              class="icon-create w-9 h-9 rounded-full leading-10 text-center info" data-info="Create"
+            >
+              <i class="fa-solid fa-video text-light"></i>
+            </div>
+            <div
+              class="icon-notifi w-9 h-9 rounded-full leading-10 text-center info" data-info="Notifications"
+            >
+              <i class="fa-regular fa-bell"></i>
+            </div>
+            <img
+              src="img/avatar.png"
+              class="w-9 h-9 rounded-full leading-10 text-center ml-2"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="flex text-white">
+      <aside class="mt-3">
+        <ul class="links">
+          <li class="rounded p-2 active mb-2">
+            <i class="fa-solid fa-house"></i>
+            <span>Home</span>
+          </li>
+          <li class="rounded p-2 mb-2">
+            <i class="fa-solid fa-hourglass-half"></i>
+            <span>Short</span>
+          </li>
+          <li class="rounded p-2 mb-2 plus">
+            <i class="fa-solid fa-circle-plus"></i>
+          </li>
+          <li class="rounded p-2 mb-2">
+            <i class="fa-solid fa-earth-americas"></i>
+            <span>Subscription</span>
+          </li>
+          <li class="rounded p-2 mb-2">
+            <i class="fa-solid fa-book"></i>
+            <span>Library</span>
+          </li>
+          <hr />
+          <div class="other pt-2 pb-2">
+            <li class="rounded p-2 mb-2">
+              <i class="fa-solid fa-clock-rotate-left"></i>
+              <span>History</span>
+            </li>
+            <li class="rounded p-2 mb-2">
+              <i class="fa-solid fa-play"></i>
+              <span>Your Videos</span>
+            </li>
+            <li class="rounded p-2 mb-2">
+              <i class="fa-regular fa-clock"></i>
+              <span>Watch Later</span>
+            </li>
+            <li class="rounded p-2 mb-2">
+              <i class="fa-regular fa-thumbs-up"></i>
+              <span>Liked Videos</span>
+            </li>
+          </div>
+          <div class="other more pt-2 pb-2 text-sm">
+            <p class="text-white-50 ml-5">More from YouTube</p>
+            <li class="rounded p-2 mb-2">
+              <i class="fa-brands red fa-youtube"></i>
+              <span>YouTube Premium</span>
+            </li>
+            <li class="rounded p-2 mb-2">
+              <i class="fa-solid red fa-square-plus"></i>
+              <span>Youtube Studio</span>
+            </li>
+            <li class="rounded p-2 mb-2">
+              <i class="fa-solid red fa-music"></i>
+              <span>YouTube Music</span>
+            </li>
+            <li class="rounded p-2 mb-2">
+              <i class="fa-solid red fa-child"></i>
+              <span>YouTube Kids</span>
+            </li>
+          </div>
+          <div class="other pt-2 pb-2">
+            <li class="rounded p-2 mb-2">
+              <i class="fa-solid fa-gear"></i>
+              <span>settings</span>
+            </li>
+            <li class="rounded p-2 mb-2">
+              <i class="fa-regular fa-flag"></i>
+              <span>Report</span>
+            </li>
+            <li class="rounded p-2 mb-2">
+              <i class="fa-regular fa-circle-question"></i>
+              <span>Help</span>
+            </li>
+            <li class="rounded p-2 mb-2">
+              <i class="fa-solid fa-circle-info"></i>
+              <span>Send Feedback</span>
+            </li>
+          </div>
+        </ul>
+      </aside>
+      <article>
+        <div class="uls my-3 ml-3">
+          <div class="links">
+            <ul class="flex">
+              <li class="btn rounde mx-2 text-black active">All</li>
+              <li class="btn rounde mx-2 text-white">Mixes</li>
+              <li class="btn rounde mx-2 text-white">New</li>
+              <li class="btn rounde mx-2 text-white">HTML</li>
+              <li class="btn rounde mx-2 text-white">CSS</li>
+              <li class="btn rounde mx-2 text-white">JS</li>
+              <li class="btn rounde mx-2 text-white">PC</li>
+              <li class="btn rounde mx-2 text-white">Cars</li>
+              <li class="btn rounde mx-2 text-white">Programming</li>
+              <li class="btn rounde mx-2 text-white">Play</li>
+              <li class="btn rounde mx-2 text-white">Games</li>
+            </ul>
+          </div>
+        </div>
+        <div class="main">
+          <div class="videos overflow-auto pb-2">
+            <div class="cont mx-4">
+              <div class="vids grid lg:grid-cols-3 gap-4 mb-4 pb-3">
+                <div class="video-box rounded overflow-hidden">
+                  <div class="img position-relative">
+                    <img src="img/video-1.jpg" alt="" class="p-0" />
+                    <span class="position-absolute rounded">14:48</span>
+                  </div>
+                  <div class="info w-full">
+                    <div class="avatar mb-2 flex items-center mt-1">
+                      <img src="img/video-logo-1.jpg" alt="" class="w-9 h-9 rounded-full" />
+                      <p class="mt-1 ml-2">AI Adobe Photoshop</p>
+                    </div>
+                  </div>
+                  <div class="more text-white-50">
+                    <div class="name">
+                      <span class="mr-1">Mostafa Makram TV</span>
+                      <span><i class="fa-solid fa-circle-check"></i></span>
+                    </div>
+                    <div class="date">
+                      <span>13k Viwes</span> . <span>13 hours ago</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="video-box rounded overflow-hidden">
+                  <div class="img position-relative">
+                    <img src="img/vide.webp" alt="" class="p-0" />
+                    <span class="position-absolute rounded">13:16</span>
+                  </div>
+                  <div class="info flex w-100">
+                    <div class="avatar mb-2 flex items-center mt-1">
+                      <img src="img/video-logo-2.jpg" alt="" class="w-9 h-9 rounded-full" />
+                      <p class="mt-1 ml-2">يعني ايه function</p>
+                    </div>
+                  </div>
+                  <div class="more text-white-50">
+                    <div class="name">
+                      <span>Elzero Web School</span>
+                      <span><i class="fa-solid fa-circle-check"></i></span>
+                    </div>
+                    <div class="date">
+                      <span>13k Viwes</span> . <span>2 days ago</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="video-box rounded overflow-hidden">
+                  <div class="img position-relative">
+                    <img src="img/vid3t.webp" alt="" class="p-0 w-full" />
+                    <span class="position-absolute rounded">23:51</span>
+                  </div>
+                  <div class="info flex w-100">
+                    <div class="avatar mb-2 flex items-center mt-1">
+                      <img src="img/vid3.jpg" alt="" class="w-9 h-9 rounded-full" />
+                      <p class="mt-1 ml-2">ارخص عربيه ب 100 مليون</p>
+                    </div>
+                  </div>
+                  <div class="more text-white-50">
+                    <div class="name">
+                      <span>Ahmed El Wakil</span>
+                      <span><i class="fa-solid fa-circle-check"></i></span>
+                    </div>
+                    <div class="date">
+                      <span>144k Viwes</span> . <span>3 months ago</span>
+                    </div>
+                  </div>
+                </div> 
+                <div class="video-box rounded overflow-hidden">
+                  <div class="img position-relative">
+                    <img src="img/vid4.webp" alt="" class=" p-0" />
+                    <span class="position-absolute rounded">12:00:00</span>
+                  </div>
+                  <div class="info flex w-100">
+                    <div class="avatar mb-2 flex items-center mt-1">
+                      <img src="img/vid4logo.jpg" alt="" class="w-9 h-9 rounded-full" />
+                      <p class="mt-1 ml-2">learn python free</p>
+                    </div>
+                  </div>
+                  <div class="more text-white-50">
+                    <div class="name">
+                      <span>Bro Code</span>
+                      <span><i class="fa-solid fa-circle-check"></i></span>
+                    </div>
+                    <div class="date">
+                      <span>10M Viwes</span> . <span>2 Year ago</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="video-box rounded overflow-hidden">
+                  <div class="img position-relative">
+                    <img src="img/vid5.webp" alt="" class=" p-0" />
+                    <span class="position-absolute rounded">12:23</span>
+                  </div>
+                  <div class="info flex w-100">
+                    <div class="avatar mb-2 flex items-center mt-1">
+                      <img src="img/vid5logo.jpg" alt="" class="w-9 h-9 rounded-full" />
+                      <p class="mt-1 ml-2">BackEnd Road Map</p>
+                    </div>
+                  </div>
+                  <div class="more text-white-50">
+                    <div class="name">
+                      <span>غريب الشيخ</span>
+                      <span><i class="fa-solid fa-circle-check"></i></span>
+                    </div>
+                    <div class="date">
+                      <span>97k Viwes</span> . <span>1 Year ago</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="video-box rounded overflow-hidden">
+                  <div class="img position-relative">
+                    <img src="img/vid6.webp" alt="" class=" p-0" />
+                    <span class="position-absolute rounded">20:16</span>
+                  </div>
+                  <div class="info flex w-100">
+                    <div class="avatar mb-2 flex items-center mt-1">
+                      <img src="img/vid6logo.jpg" alt="" class="w-9 h-9 rounded-full" />
+                      <p class="mt-1 ml-2">الدحيح - chat GPT</p>
+                    </div>
+                  </div>
+                  <div class="more text-white-50">
+                    <div class="name">
+                      <span>New Media</span>
+                      <span><i class="fa-solid fa-circle-check"></i></span>
+                    </div>
+                    <div class="date">
+                      <span>500k Viwes</span> . <span>2 months ago</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="video-box rounded overflow-hidden">
+                  <div class="img position-relative">
+                    <img src="img/vid7t.webp" alt="" class="p-0" />
+                    <span class="position-absolute rounded">5:14</span>
+                  </div>
+                  <div class="info flex w-100">
+                    <div class="avatar mb-2 flex items-center mt-1">
+                      <img src="img/vid7.jpg" alt="" class="w-9 h-9 rounded-full" />
+                      <p class="mt-1 ml-2">500hp Evo Night Run | 4K</p>
+                    </div>
+                  </div>
+                  <div class="more text-white-50">
+                    <div class="name">
+                      <span> Hartnett Media </span>
+                      <span><i class="fa-solid fa-circle-check"></i></span>
+                    </div>
+                    <div class="date">
+                      <span>1M Viwes</span> . <span>1 Year ago</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="video-box rounded overflow-hidden">
+                  <div class="img position-relative">
+                    <img src="img/vid8.webp" alt="" class="p-0" />
+                    <span class="position-absolute rounded">1:36</span>
+                  </div>
+                  <div class="info flex w-100">
+                    <div class="avatar mb-2 flex items-center mt-1">
+                      <img src="img/vid8logo.jpg" alt="" class="w-9 h-9 rounded-full" />
+                      <p class="mt-1 ml-2">BUGATTI CHIRON Pur Sport</p>
+                    </div>
+                  </div>
+                  <div class="more text-white-50">
+                    <div class="name">
+                      <span> Bugatti</span>
+                      <span><i class="fa-solid fa-circle-check"></i></span>
+                    </div>
+                    <div class="date">
+                      <span>2M Viwes</span> . <span>1 Year ago</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="video-box rounded overflow-hidden">
+                  <div class="img position-relative">
+                    <img src="img/cover.jpg" alt="" class="p-0 w-full" />
+                    <span class="position-absolute rounded">5:00</span>
+                  </div>
+                  <div class="info flex w-100">
+                    <div class="avatar mb-2 flex items-center mt-1">
+                      <img src="img/avatar.png" alt="" class="w-9 h-9 rounded-full" />
+                      <p class="mt-1 ml-2">learn java script</p>
+                    </div>
+                  </div>
+                  <div class="more text-white-50">
+                    <div class="name">
+                      <span>Abdelrhman</span>
+                      <span><i class="fa-solid fa-circle-check"></i></span>
+                    </div>
+                    <div class="date">
+                      <span>1M Viwes</span> . <span>1 Year ago</span>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="shorts">
+              <div class="title flex w-full justify-between text-2xl mb-6">
+                <h1 ><i class="fa-solid fa-hourglass-half red mr-1"></i></i> Shorts</h1>
+                <div class="close w-9 h-9 rounded-full leading-10 text-center cursor-pointer" data-not="Not intersted">
+                  <span><i class="fa-solid fa-xmark"></i></span>
+                </div>
+              </div>
+              <div class="grid lg:grid-cols-6 gap-4">
+                <div class="short m-auto rounded overflow-hidden w-fit cursor-pointer">
+                  <img src="img/shotr1.webp" alt="">
+                  <div class="info">
+                    Watermelon
+                    HTML | CSS
+                  </div>
+                  <div class="views text-white-50">
+                    313k views
+                  </div>
+                </div>
+                <div class="short m-auto rounded overflow-hidden w-fit cursor-pointer ">
+                  <img src="img/short2.webp" class="h-full" alt="">
+                  <div class="info">
+                    صوت اللامبورجيني 
+                    في النفق !!!
+                  </div>
+                  <div class="views text-white-50">
+                    4.4m views
+                  </div>
+                </div>
+                <div class="short m-auto rounded overflow-hidden w-fit cursor-pointer">
+                  <img src="img/short3.webp" alt="">
+                  <div class="info">
+                    frontend
+                    road map
+                  </div>
+                  <div class="views text-white-50">
+                    30k views
+                  </div>
+                </div>
+                <div class="short m-auto rounded overflow-hidden w-fit cursor-pointer">
+                  <img src="img/short4.webp" alt="">
+                  <div class="info">
+                    لما تبقي خايف
+                    تشيل الماده ...
+                  </div>
+                  <div class="views text-white-50">
+                    88k views
+                  </div>
+                </div>
+                <div class="short m-auto rounded overflow-hidden w-fit cursor-pointer">
+                  <img src="img/short5.webp" alt="">
+                  <div class="info">
+                    عشان تتعلم react.js
+                    لازم تعرف 3 حاجات
+                  </div>
+                  <div class="views text-white-50">
+                    6.1k views
+                  </div>
+                </div>
+                <div class="short m-auto rounded overflow-hidden w-fit cursor-pointer">
+                  <img src="img/short7.webp" alt="">
+                  <div class="info">
+                    input form
+                    HTML | CSS
+                  </div>
+                  <div class="views text-white-50">
+                    386k views
+                  </div>
+                </div>
+              </div>
+              <div class="hidden-shorts mb-3 hidden">
+                <span>Shelf will be hidden for 30 days</span> 
+                <button class="re text-blue-800 ml-7 hover:bg-blue-500 p-2 rounded ">Undo</button>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        
+      </article>
+    </section>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
